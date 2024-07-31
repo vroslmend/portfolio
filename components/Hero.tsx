@@ -53,7 +53,7 @@ const Hero = () => {
                 position='right'
               />
             </a>
-            <a>
+            <a href='https://drive.google.com/file/d/1hpykWBawGdbrOON8YhLXC9jDyAsIRFui/view?usp=sharing' target='_blank'>
               <MagicButton
                 title="View resume"
                 icon={<FaArrowUpRightFromSquare />}
