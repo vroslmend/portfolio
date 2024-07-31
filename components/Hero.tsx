@@ -2,7 +2,7 @@ import React from 'react'
 import { Spotlight } from './ui/Spotlight'
 import { TextGenerateEffect } from './ui/TextGenerateEffect'
 import MagicButton from './ui/MagicButton'
-import { FaLocationArrow } from 'react-icons/fa6'
+import { FaArrowUpRightFromSquare, FaLocationArrow } from 'react-icons/fa6'
 
 const Hero = () => {
   return (
@@ -45,13 +45,22 @@ const Hero = () => {
             Hi. I&apos;m Ammar, a Web Developer based in Pakistan.
           </p> 
 
-          <a href="#about">
-            <MagicButton
-              title="Show my work"
-              icon={<FaLocationArrow />}
-              position='right'
-            />
-          </a>
+          <div className='flex gap-5'>
+            <a href="#about">
+              <MagicButton
+                title="Show my work"
+                icon={<FaLocationArrow />}
+                position='right'
+              />
+            </a>
+            <a>
+              <MagicButton
+                title="View resume"
+                icon={<FaArrowUpRightFromSquare />}
+                position='right'
+              />
+            </a>
+          </div>
       </div>
     </div>
   </div>

@@ -1,5 +1,6 @@
 'use client'
 
+import { AnimatePresence, motion } from "framer-motion";
 import React from "react";
 import { CanvasRevealEffect } from "./ui/CanvasRevealEffect";
 
@@ -101,7 +102,7 @@ const Card = ({
       <Icon className="absolute h-10 w-10 -top-3 -right-3 dark:text-white text-black opacity-30" />
       <Icon className="absolute h-10 w-10 -bottom-3 -right-3 dark:text-white text-black opacity-30" />
 
-      {/* <AnimatePresence>
+      <AnimatePresence>
         {hovered && (
           <motion.div
             initial={{ opacity: 0 }}
@@ -111,7 +112,7 @@ const Card = ({
             {children}
           </motion.div>
         )}
-      </AnimatePresence> */}
+      </AnimatePresence>
 
       <div className="relative z-20 px-10">
         <div

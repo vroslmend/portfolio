@@ -1,7 +1,8 @@
 export const navItems = [
+    { name: "Home", link:"/" },
     { name: "About", link: "#about" },
     { name: "Projects", link: "#projects" },
-    { name: "Testimonials", link: "#testimonials" },
+    /* { name: "Testimonials", link: "#testimonials" }, */
     { name: "Contact", link: "#contact" },
   ];
   
@@ -49,7 +50,7 @@ export const navItems = [
   
     {
       id: 5,
-      title: "Currently building a JS Animation library",
+      title: "Currently working on ReactJS Projects",
       description: "The Inside Scoop",
       className: "md:col-span-3 md:row-span-2",
       imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
@@ -205,13 +206,16 @@ export const navItems = [
     {
       id: 1,
       img: "/git.svg",
+      link: "https://github.com/vroslmend/",
     },
     {
       id: 2,
-      img: "/twit.svg",
+      img: "/spotify.svg",
+      link: "https://open.spotify.com/user/6tf81fs0qm2akdo4yt1wp1akw?si=34b88f5ec41f41f3",
     },
     {
       id: 3,
       img: "/link.svg",
+      link: "https://linkedin.com/in/ammar-hassan-8aa48a233",
     },
   ];
